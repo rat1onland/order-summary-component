@@ -1,0 +1,370 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  
+
+  #container {
+    width: 327px;
+    height: 567px;
+    margin: 71px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 40px 40px rgba(13, 48, 189, 0.1518);
+  }
+
+  /* Header */
+
+  .hero {
+    width: 327px;
+    height: 160px;
+  }
+
+  .hero .img {
+    width: 327px;
+    height: 160px;
+  }
+
+  .hero .img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Main */
+  #summary {
+    width: 327px;
+    background-color: #fff;
+  }
+
+  /* Main Texts */
+  #summary h2 {
+    width: 263px;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 29px;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 32px auto 16px auto;
+  }
+
+  #summary > p {
+    width: 263px;
+    height: 75px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+
+  /* Main Plan */
+  #summary .plan {
+    width: 279px;
+    height: 81px;
+    background-color: #F7F9ff;
+    border-radius: 11px;
+    display: flex;
+    margin: auto;
+  }
+
+  .plan .icon-music {
+    width: 48px;
+    height: 48px;
+    padding: 17px 20px 16px 16px;
+  }
+
+  .plan .price {
+    width: 92px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .plan .price h5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin-bottom: 3px;
+  }
+
+  .plan .price p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+  }
+
+  .plan .change-btn {
+    width: 48px;
+    height: 81px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .plan .change-btn a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 700;
+    color: var(--bright-blue);
+  }
+
+  /* Final Buttons */
+  #summary .proceed-btn {
+    width: 279px;
+    height: 50px;
+    border-radius: 11px;
+    background-color: var(--bright-blue);
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.1903);
+    margin: auto;
+    margin-top: 24px;
+  }
+  
+  #summary .proceed-btn div {
+    width: 279px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #summary .proceed-btn a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  #summary .cancel-btn {
+    width: 279px;
+    height: 50px;
+    margin: auto;
+  }
+
+  #summary .cancel-btn div {
+    width: 110px;
+    margin: 24px auto 32px auto;
+  }  
+
+  #summary .cancel-btn a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+    color: var(--desaturated-blue);
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 769px) {
+  #container {
+    width: 450px;
+    height: 697px;
+    margin: 102px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 40px 40px rgba(13, 48, 189, 0.1518);
+  }
+
+  /* Header */
+
+  .hero {
+    width: 450px;
+    height: 220px;
+  }
+
+  .hero .img {
+    width: 450px;
+    height: 220px;
+  }
+
+  .hero .img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Main */
+  #summary {
+    width: 450px;
+    background-color: #fff;
+  }
+
+  /* Main Texts */
+  #summary h2 {
+    width: 354px;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 37px;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 45px auto 15px auto;
+  }
+
+  #summary > p {
+    width: 354px;
+    height: 78px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  /* Main Plan */
+  #summary .plan {
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9ff;
+    border-radius: 11px;
+    display: flex;
+    margin: auto;
+  }
+  
+  .plan .icon-music {
+    width: 48px;
+    height: 48px;
+    padding: 25px 20px 25px 24px;
+  }
+  
+  .plan .price {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .plan .price h5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin-bottom: 6px;
+  }
+  
+  .plan .price p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+  }
+  
+  .plan .change-btn {
+    width: 52px;
+    height: 98px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .plan .change-btn a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: var(--bright-blue);
+  }
+
+  .plan .change-btn a:hover {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+  }
+
+  /* Final Buttons */
+  #summary .proceed-btn {
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    background-color: var(--bright-blue);
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.1903);
+    margin: auto;
+    margin-top: 32px;
+  }
+  
+  #summary .proceed-btn div {
+    width: 354px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #summary .proceed-btn a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #summary .proceed-btn:hover {
+    background-color: var(--desaturated-blue);
+    cursor: pointer;
+  }
+
+  #summary .cancel-btn {
+    width: 354px;
+    height: 50px;
+    margin: auto;
+  }
+
+  #summary .cancel-btn div {
+    width: 130px;
+    margin: 32px auto 48px auto;
+  }  
+
+  #summary .cancel-btn a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+    color: var(--desaturated-blue);
+    text-decoration: none;
+  }
+
+  #summary .cancel-btn a:hover {
+    color: var(--dark-blue);
+  }
+}
